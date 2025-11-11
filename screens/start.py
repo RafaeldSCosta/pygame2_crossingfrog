@@ -11,7 +11,7 @@ from settings import SCREENWIDTH, SCREENHEIGHT
 
 class StartScreen(BaseScreen):
     def __init__(self, display, gsm):
-        super().__init__(display, gsm, "imagens_pygame/tela1.png")
+        super().__init__(display, gsm, "imagens_pygame/imagem_start.png")
 
         # botão START (imagem)
         button_image_path = get_asset_path("imagens_pygame/botao_start.png")
